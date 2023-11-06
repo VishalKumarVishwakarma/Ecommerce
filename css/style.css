@@ -26,5 +26,13 @@ nav ul{
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-  align-content: flex-start;
+}
+
+header nav {
+  display: flex;
+
+}
+
+.logo{
+  height: 10vh;
 }
