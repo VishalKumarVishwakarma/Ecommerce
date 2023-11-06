@@ -1,7 +1,30 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
+header {
+
+  border: 2px solid red;
+  background-color: black;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 1vh;
+}
+
+nav ul{
+  height: 10vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
