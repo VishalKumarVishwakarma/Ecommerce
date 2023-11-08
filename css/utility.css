@@ -1,10 +1,20 @@
-.flex-all-center{
+:root {
+    --main-bg-color: black;
+  }
 
-    height: 8vh;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
+.flex-all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  margin: 18px 21px;
+  height: 23px;
+  padding: 2px;
+  border-radius: 4px;
+  color: white;
+  background-color: var(--main-bg-color);
+  font-family: "Roboto", sans-serif;
 }

@@ -1,38 +1,83 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+:root {
+  --main-bg-color: black;
+}
+
+
+header {
+  background-color: var(--main-bg-color);
   font-family: "Roboto", sans-serif;
 }
 
-header {
-
-  border: 2px solid red;
-  background-color: black;
+nav{
+  display: flex;
 }
 
-nav ul li {
-  list-style: none;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  padding: 1vh;
+.logo{
+  display: flex;
+  align-items: center;
+  height: 58px;
 }
 
 nav ul{
-  height: 10vh;
+  height: 58px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
 }
 
-header nav {
-  display: flex;
 
+nav ul li{
+  list-style: none;
+  padding: 1vh;
 }
 
-.logo{
-  height: 10vh;
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  
+}
+
+nav ul li a:hover {
+  color: blue;
+  font-weight: 900;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+}
+
+.search input{
+  height: 23px;
+  width: 493px;
+  margin: 0px 0px 0px 100px;
+  border-radius: 4px;
+  padding: 0px 12px;
+  
+}
+
+
+
+
+
+main .container {
+  min-height: calc(100vh - 58px - 8vh);
+}
+
+
+
+
+
+.footer {
+  background-color: var(--main-bg-color);
+  color: white;
+  height: 8vh;
+  font-family: "Roboto", sans-serif;
 }
