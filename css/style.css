@@ -63,14 +63,38 @@ nav ul li a:hover {
   
 }
 
-
-
-
-
 main .container {
   min-height: calc(100vh - 58px - 8vh);
 }
 
+.slider {
+  margin: 12px 0;;
+  display: flex;
+  justify-content: center;
+}
+
+.card h2{
+  font-family: "Roboto", sans-serif;
+  margin: 0px 12px;
+}
+
+.cards{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px 20px;
+}
+
+.card-item{
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.lines{
+  font-family: "Roboto", sans-serif;
+}
 
 
 

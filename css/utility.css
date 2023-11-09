@@ -18,3 +18,12 @@
   background-color: var(--main-bg-color);
   font-family: "Roboto", sans-serif;
 }
+
+
+.my-2{
+  margin: 22px 0px;
+}
+
+.text-center{
+  text-align: center;
+}
