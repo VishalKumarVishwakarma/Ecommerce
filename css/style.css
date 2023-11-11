@@ -75,13 +75,14 @@ main .container {
 
 .card h2{
   font-family: "Roboto", sans-serif;
-  margin: 0px 20px;
+  margin: 5px 20px;
 }
 
 .cards{
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: scroll;
   margin: 10px 20px;
 }
 
