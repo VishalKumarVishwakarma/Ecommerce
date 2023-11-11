@@ -28,7 +28,7 @@ nav ul{
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  flex-wrap: wrap;
+  
 }
 
 
@@ -56,7 +56,7 @@ nav ul li a:hover {
 
 .search input{
   height: 23px;
-  width: 493px;
+  width: 30vw;
   margin: 0px 0px 0px 100px;
   border-radius: 4px;
   padding: 0px 12px;
@@ -71,6 +71,7 @@ main .container {
   margin: 12px 0;;
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 .card h2{
